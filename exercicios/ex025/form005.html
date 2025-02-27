@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Clientes (Yan)</title>
+</head>
+<body>
+    <h1>Clientes</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Tipo</legend>
+            <input type="radio" name="tipo" id="ipre" value="pre" checked> <label for="ipre">Presencial</label><br>
+            <input type="radio" name="tipo" id="idist" value="dist"> <label for="idist">A Distância</label>
+        </fieldset>
+        <fieldset>
+            <legend>Setor Empresarial</legend>
+            <input type="checkbox" name="com" id="icom"> <label for="icom">Comércio</label><br>
+            <input type="checkbox" name="trans" id="itrans"> <label for="itrans">Transporte</label><br>
+            <input type="checkbox" name="alim" id="ialim"> <label for="ialim">Alimentação</label><br>
+            <input type="checkbox" name="educ" id="ieduc" checked> <label for="ieduc">Educacional</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
