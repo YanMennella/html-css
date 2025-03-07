@@ -2,6 +2,29 @@
 
 /* Todas as demais mídias */
 
-@media print {
-    
+/* Typical device B reakpoints
+-------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992 até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media print { /* IMPRESSÃO */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+
 }
