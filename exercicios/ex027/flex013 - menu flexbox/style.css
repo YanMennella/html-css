@@ -27,6 +27,7 @@ header {
 
 header > h1 {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav {
