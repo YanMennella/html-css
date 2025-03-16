@@ -27,11 +27,14 @@ header {
 
 header > h1 {
     border: 1px dotted black;
-    flex: 0 0 200px;
+    flex: 0 0 210px;
 }
 
 header > nav {
     border: 1px dotted black;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 header > nav > a {
