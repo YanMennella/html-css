@@ -13,3 +13,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+section.flex-content {
+    background-color: rgb(156, 156, 156);
+}
