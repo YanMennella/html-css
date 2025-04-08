@@ -31,11 +31,13 @@ section.flex-content {
 article.text-media {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 article.media-text {
     display: flex;
     flex-flow: row wrap-reverse;
+    justify-content: space-between;
 }
 
 article > div.text {
