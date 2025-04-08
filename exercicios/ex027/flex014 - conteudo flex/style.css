@@ -25,9 +25,17 @@ section.flex-content {
     background-color: rgb(156, 156, 156);
     padding: 20px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
 }
 
 section > article {
     border: 2px dashed green;
+}
+
+article.text-media {
+    display: flex;
+}
+
+article.media-text {
+    display: flex;
 }
