@@ -54,3 +54,8 @@ div.media > img {
     display: block;
     margin: auto;
 }
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+}
