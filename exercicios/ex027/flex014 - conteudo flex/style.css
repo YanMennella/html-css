@@ -24,4 +24,10 @@ header, section.normal {
 section.flex-content {
     background-color: rgb(156, 156, 156);
     padding: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+section > article {
+    border: 2px dashed green;
 }
